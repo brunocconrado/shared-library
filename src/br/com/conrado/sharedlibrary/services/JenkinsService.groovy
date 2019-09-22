@@ -1,7 +1,11 @@
 package br.com.conrado.sharedlibrary.services
 
-import br.com.itau.jdi.core.annotation.Service
+import br.com.itau.jdi.core.annotation.Component
+import br.com.itau.jdi.core.annotation.Inject
 
-@Service
+@Component
 class JenkinsService {
+
+    @Inject
+    ArtifactoryService artifactoryService
 }

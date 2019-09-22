@@ -38,7 +38,7 @@ dependencies {
     compile group: 'org.apache.ivy', name:'ivy', version:'2.4.0'
     compile 'javax.servlet:servlet-api:2.4'
 
-    implementation 'br.com.itau:jdi:0.0.1'
+    implementation 'br.com.itau:jdi:0.0.1-SNAPSHOT'
 
     compile 'com.lesfurets:jenkins-pipeline-unit:1.1'
     // Defining it twice for Gradle 5 as some annotation processors live here as well
